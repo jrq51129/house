@@ -4,7 +4,7 @@
     var timeoutId;
     function setRem() {
         var clientWidth = document.documentElement.clientWidth;
-        var nowPX = clientWidth / 320 * 100;
+        var nowPX = clientWidth / 320 * 10;
         document.documentElement.style.fontSize = nowPX + 'px';
     }
     setRem();

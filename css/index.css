@@ -1,0 +1,274 @@
+
+/* banner部分 */
+
+.content1 {
+    width: 100%;
+    height: 30rem;
+    background: url(../image/index/banner.png) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+.content1 form {
+    width: 80%;
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.content1 form .search {
+    width: 100%;
+    height: 5rem;
+    border: none;
+    border: 2px solid black;
+    border-radius: .5rem;
+    padding-left: 4rem;
+}
+
+.content1 form span {
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    background: url(../image/index/seach.jpg) no-repeat center;
+    background-size: 2.5rem 2.5rem;
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+}
+
+/* 导航栏部分 */
+
+nav {
+    width: 100%;
+    height: 14rem;
+    background-color: rgb(255, 138, 0);
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    width: 8rem;
+    height: 8rem;
+    margin-top: 2rem;
+}
+
+nav ul a {
+    display: inline-block;
+    width: 8rem;
+    height: 8rem;
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 8rem;
+}
+
+nav ul li:nth-of-type(1) a {
+    background: url(../image/index/index_03.png) no-repeat center;
+    background-size: contain;
+}
+
+nav ul li:nth-of-type(2) a {
+    background: url(../image/index/index_05.png) no-repeat center;
+    background-size: contain;
+}
+
+nav ul li:nth-of-type(3) a {
+    background: url(../image/index/index_07.png) no-repeat center;
+    background-size: contain;
+}
+
+nav ul li:nth-of-type(4) a {
+    background: url(../image/index/index_09.png) no-repeat center;
+    background-size: contain;
+}
+
+/* banner2部分 */
+.banner2 {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.banner2 img {
+    width: 100%;
+}
+
+/* 热门房源 */
+
+.content2 {
+    width: 100%;
+    background-color: #fff;
+}
+
+.content2 nav {
+    width: 100%;
+    height: 8rem;
+    margin-top: 2rem;
+    background-color: rgb(255, 138, 0);
+}
+
+.content2 nav h1 {
+    color: white;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    padding-top: 1rem;
+}
+
+.content2 nav h5 {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.content2 ul {
+    width: 90%;
+    margin: 0 auto;
+    list-style: none;
+
+}
+
+.content2 ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0;
+    border-bottom: 1px solid red;
+}
+
+.content2 ul li img {
+    width: 12rem;
+}
+
+.content2 ul li h1 {
+    font-size: 2.3rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.content2 ul li p {
+    font-size: 1.7rem;
+}
+
+.content2 ul li strong {
+    color: rgb(255, 138, 0);
+    float: right;
+}
+
+.content2 ul li div:nth-of-type(2) {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content2 ul li div:nth-of-type(2) p:nth-of-type(2) {
+    color: gray;
+}
+
+.content2 ul li div:nth-of-type(2) p:nth-of-type(2) span {
+    float: right;
+}
+
+.content2 ul li div:nth-of-type(2) p:nth-of-type(3) span {
+    display: inline-block;
+    height: 2.5rem;
+    color: rgb(132, 154, 174);
+    background-color: rgb(244, 247, 249);
+}
+
+/* 更多 */
+.content3 {
+    width: 100%;
+    margin-top: 1rem;
+    background-color: white;
+}
+
+.content3 div {
+    height: 8rem;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid rgb(255, 138, 0);
+}
+
+.content3 div h2 {
+    font-size: 2.5rem;
+    color: gray;
+    font-weight: 400;
+    width: 50%;
+    text-align: center;
+    line-height: 8rem;
+}
+
+.content3 div h2:nth-of-type(1) {
+    color: rgb(255, 138, 0);
+    border-bottom: 1px solid rgb(255, 138, 0);
+}
+
+.content3 ul {
+    width: 85%;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.8rem;
+    color: gray;
+    padding-bottom: 3rem;
+}
+
+.content3 ul li {
+    width: 50%;
+    margin-top: 2rem;
+}
+
+
+
+/* 免费下载 */
+.content4 {
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+}
+
+.content4 div {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.content4 div:nth-of-type(1) img {
+    width: 4rem;
+    height: 4rem;
+    margin-top: 1.5rem;
+}
+
+.content4 div:nth-of-type(1) {
+    text-align: center;
+    width: 20%;
+    background-color: rgb(122, 122, 122,.5);
+
+}
+
+.content4 div:nth-of-type(2) {
+    background-color: rgb(122, 122, 122,.5);
+    width: 50%;
+    padding-top: 1rem;
+}
+
+.content4 div:nth-of-type(2) p:nth-of-type(2) {
+    font-size: 1.6rem;
+}
+.content4 div:nth-of-type(3){
+    width: 30%;
+    text-align: center;
+    line-height: 7rem;
+    background-color: rgb(255, 138, 0);
+}
