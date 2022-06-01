@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    background-color: rgb(245, 245, 245);
+}
+
+header {
+    width: 100%;
+    height: 22rem;
+    background: url(../image/my/bg1.png) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+header .my-top {
+    width: 10rem;
+    height: 7rem;
+    float: right;
+    display: flex;
+    justify-content: space-around;
+}
+
+header .my-top a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    box-sizing: border-box;
+    padding-top: 5rem;
+}
+
+header .my-top a:nth-of-type(1) {
+    background: url(../image/my/urse.png) no-repeat center;
+    background-size: 60%;
+}
+
+header .my-top a:nth-of-type(2) {
+    background: url(../image/my/down.png) no-repeat center;
+    background-size: 60%;
+}
+
+header .my-login {
+    width: 10rem;
+    height: 12rem;
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    top: 8rem;
+    left: 14rem;
+}
+header .my-login img{
+    width: 60%;
+    margin: 0 auto;
+}
+header .my-login button{
+    width: 70%;
+    height: 3.5rem;
+    border: none;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    margin: 0 auto;
+}
+
+
+/* 列表 */
+
+section{
+    width: 100%;
+    background-color: #fff;
+    margin-top: 1.5rem;
+}
+section ul{
+    width: 90%;
+    list-style: none;
+    margin: 0 auto;
+}
+section ul li{
+height:5rem;
+width: 100%;
+line-height: 5rem;
+border-bottom: 1px solid rgb(215, 215, 215);
+background: url(../image/my/right.png) no-repeat 32rem 1.5rem;
+background-size: .8rem;
+}
+section ul li a{
+    display: block;
+    width: 40%;
+    height: 100%;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: gray;
+    padding-left: 3rem;
+}
+section ul li:nth-of-type(1) a{
+    background: url(../image/my/icon1.png) no-repeat 0.5rem 1.7rem;
+    background-size: 2rem;
+}
+section ul li:nth-of-type(2) a{
+    background: url(../image/my/icon2.png) no-repeat 0.5rem 1.7rem;
+    background-size: 2rem;
+}
+section ul li:nth-of-type(3) a{
+    background: url(../image/my/icon3.png) no-repeat 0.5rem 1.7rem;
+    background-size: 2rem;
+}
+section ul li:nth-of-type(4) a{
+    background: url(../image/my/icon4.png) no-repeat 0.5rem 1.7rem;
+    background-size: 2rem;
+}
