@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+html,
+body {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(245, 245, 245);
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+i,
+em {
+    font-style: normal;
+}
+
+section {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.sec {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+/* 顶部 */
+header {
+    width: 100%;
+    height: 6rem;
+    background-color: rgb(255, 138, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: .5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+header h1 img {
+    width: 14rem;
+    margin-top: 1rem;
+}
+
+header .icon img {
+    width: 3.5rem;
+    margin-left: 2rem;
+    margin-top: .8rem;
+}
+
+/* 头部  */
+.top img {
+    width: 100%;
+}
+
+.title {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.title .text {
+    font-size: 2.2rem;
+    font-weight: 600;
+    /* margin-left: 20px; */
+}
+
+.title span {
+    font-size: 2rem;
+    margin-top: 12px
+}
+
+.title span>i {
+    color: red;
+    font-weight: 600;
+}
+
+.price_a {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px
+}
+
+.price_a img {
+    width: 1.8rem;
+    height: 2.6rem;
+    margin-top: 10px
+}
+
+.title .time {
+    display: block;
+    color: #999;
+    margin-top: 13px
+}
+
+.only {
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+
+.only>span {
+    display: inline-block;
+    color: rgb(135, 166, 186);
+    background-color: rgb(224, 233, 239);
+    height: 3rem;
+    font-size: 2.2rem;
+    padding: 8px 5px 8px 5px;
+    margin-right: 10px;
+}
+
+/* < !-- 户型介绍 --> */
+.navtext>ul {
+    overflow: hidden;
+}
+
+.navtext>ul>li {
+    float: left;
+    box-sizing: border-box;
+    font-size: 2.3rem;
+    width: 45%;
+    height: 11rem;
+    border-bottom: 1px solid #ccc;
+    line-height: 11rem;
+}
+
+.navtext>ul>.lis {
+    width: 90%;
+}
+
+.more {
+    color: #999;
+    font-size: 1.8rem;
+    display: block;
+    width: 16rem;
+    margin: 25px auto;
+}
+
+/* 房源特色 */
+.unique p {
+    font-size: 2.3rem;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0 15px 0;
+}
+
+.unique>.orange {
+    font-weight: 600;
+    color: rgb(243, 146, 55);
+    padding: 17px 0 17px 0;
+}
+
+/*户型分间  */
+
+.item>li {
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    height: 12rem;
+}
+
+.item li:nth-of-type(1) {
+    border-bottom: 1px solid rgb(243, 146, 55);
+}
+
+.item span {
+    display: inline-block;
+    font-size: 1.6rem;
+
+}
+
+.item span>a {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.item>li>img {
+    width: 25%;
+    height: 9rem;
+    margin-top: 15px;
+}
+
+.item_a {
+    margin-left: 8px;
+}
+
+.item_a em {
+    color: rgb(135, 166, 186);
+    background-color: rgb(224, 233, 239);
+    height: 3rem;
+    font-size: 1.3rem;
+    padding: 6px 5px 6px 5px;
+    margin-right: 10px;
+}
+
+/* 对口学校 */
+.title_a {
+    font-weight: 600;
+    font-size: 2.2rem;
+    padding: 20px 0 17px 0;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.title_b>li {
+    width: 90%;
+    font-size: 1.6rem;
+    height: 6rem;
+    border-bottom: 1px solid #ccc;
+    line-height: 6rem;
+}
+
+.title_b>li>a {
+    color: #999;
+}
+
+/* 位置及周边 */
+.address img {
+    width: 100%;
+    margin: 30px 0 30px 0;
+}
+
+/* 推荐房源 */
+.house>li>div {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.house li {
+    position: relative;
+}
+
+.house .list {
+    width: 64%;
+    margin: 15px 0px 0 20px;
+}
+
+.house .list strong {
+    float: right;
+    color: rgb(243, 146, 55);
+}
+
+.house .list .pic {
+    color: #999;
+}
+
+.house .list p {
+    font-size: 1.6rem;
+    margin-top: 5px;
+}
+
+.house .list p:nth-of-type(2) {
+    color: #999;
+
+}
+
+.house h3 {
+    font-size: 2rem;
+    width: 18.7rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.house>li img {
+    width: 9rem;
+    height: 9rem;
+    margin-top: 20px;
+}
+
+.tips {
+    font-size: 1.2rem;
+    padding: 0.05rem 0;
+    color: #000;
+    overflow: hidden;
+}
+
+.list>span {
+    display: inline-block;
+    color: rgb(135, 166, 186);
+    background-color: rgb(224, 233, 239);
+    height: 3rem;
+    width: 5rem;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 1.4rem;
+    margin: 5px 0 10px 0px;
+}
+
+.tips {
+    background: #f2f2f2;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.6rem;
+    /* position: relative; */
+}
+
+.tips>span {
+    position: absolute;
+    top: 10.6rem;
+    left: 0;
+    border-top: 1rem solid transparent;
+    border-right: 1rem solid transparent;
+    border-bottom: 1rem solid #f2f2f2;
+    border-left: 1rem solid transparent;
+    z-index: 10;
+    margin-left: 0.4rem;
+}
+
+/* 底部 */
+
+footer {
+    width: 100%;
+    background-color: rgb(47, 49, 48);
+    padding-bottom: 2rem;
+}
+
+footer h2 {
+    width: 90%;
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: rgb(147, 148, 148);
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(147, 148, 148);
+}
+
+footer .icon1 {
+    font-size: 1.6rem;
+    color: rgb(147, 148, 148);
+}
+
+footer .icon1 ul {
+    width: 85%;
+    list-style: none;
+    display: flex;
+    margin: 2rem auto;
+}
+
+footer .icon1 ul li {
+    width: 50%;
+    display: flex;
+    justify-items: center;
+}
+
+footer .icon1 ul li img {
+    width: 3rem;
+    height: 3.5rem;
+}
+
+footer .icon1 ul li div {
+    width: 50%;
+    text-align: center;
+}
+
+footer .icon1 div p {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* 联系经纪人 */
+.agent {
+    height: 5.8rem;
+    line-height: 5.8rem;
+    padding: 0 2rem;
+}
+
+.agent a {
+    font-size: 1.6rem;
+}
+
+.agent a:first-of-type {
+    display: inline-block;
+    width: 20rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    background: #ff8a00 url("../image/SecondHandList/user.png") 3rem center no-repeat;
+    background-size: 2.5rem 2.5rem;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.agent a:last-of-type {
+    display: inline-block;
+    height: 4rem;
+    line-height: 4rem;
+    background: url("../image/SecondHandList/xin.png") 0 center no-repeat;
+    background-size: 2.5rem 2.5rem;
+    padding-left: 3rem;
+    margin-left: 5rem;
+}
