@@ -56,14 +56,17 @@ header .my-login img{
     width: 60%;
     margin: 0 auto;
 }
-header .my-login button{
+header .my-login a{
     width: 70%;
+    margin: 0 auto;
+}
+header .my-login button{
+    width: 100%;
     height: 3.5rem;
     border: none;
     border: 1px solid white;
     background-color: transparent;
     color: white;
-    margin: 0 auto;
 }
 
 
